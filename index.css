@@ -28,8 +28,7 @@ nav {
 }
 #nav-flex {
   display:flex;
-  width: 30vw;
-  gap:5%;
+  width: 60vw;
   flex-direction:row;
   justify-content:end;
 }
@@ -70,11 +69,45 @@ main > h2 {
   font-family:monospace;
 }
  
+nav > h1 {
+  margin: auto auto;
+  transform:scale(1.25);
+}
+main > h3 {color:white}
+
+figcaption {color:white}
+ 
+#collage {
+  background-color:peachpuff;
+  width:90%;
+  height:70%;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:space-evenly;
+  gap:1%;
+} 
+
+#collage-each {
+  width: 30%;
+  height: 40%;
+  background-color:crimson;
+  
+}
+
+#collage-each>img {
+  width: 60%;
+  height: 80%;
+}
+
+main>p{color:white}
+ 
+ 
+ 
+ 
  
  
 
- 
- 
  
  
  
